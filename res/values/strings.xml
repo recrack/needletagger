@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NeedleTagger</string>
+	
+	<string name="configurationCategory1">Error</string>
+	<string name="configurationCategory2">Setting</string>
+	<string name="configurationReportTitle">Automatically Error Report</string>
+	<string name="configurationReportSummary">Automatically Error Report</string>
+	<string name="configurationPlayerLinkTitle">Automatically Play link</string>
+	<string name="configurationPlayerLinkSummary">Automatically Play link</string>
+	<string name="configurationReportDialogTitle">Program improvements</string>
+	<string name="configurationReportDialogSummary">Please let us know of the program improvements.</string>
+	
+	<string name="keywordHint">Artist Or Title</string>
+	<string name="save">SAVE</string>
+	<string name="titleCaption">Title</string>
+	<string name="artistCaption">Artist</string>
+	<string name="albumCaption">Album</string>
+	<string name="alsong">Tag Search</string>
+	<string name="saveMessage">completed</string>
+	<string name="saveMessage1">Sorry, Cannot Write</string>
+	<string name="saveMessage2">Sorry, Cannot Read</string>
+	<string name="saveMessage3">Sorry, Cannot Saved, Tag Error</string>
+	<string name="saveMessage4">Sorry, Read Only File</string>
+	<string name="saveMessage5">Sorry, Cannot Supported File Format</string>
+	<string name="saveMessage6">Sorry, Cannot Saved</string>
+	
+	<string name="dialogProcessTitleCaption">Processing...</string>
+	<string name="dialogArtworkCaption">Based on the song title and artist automatically import artwork from the Internet.</string>
+	<string name="dialogArtworkNoCaption">Can not find the image.\nAs the song title and artist to search for images.\nPlease try again.</string>
+	<string name="dialogOkCaption">OK</string>
+	<string name="dialogCancelCaption">Cancel</string>
+	<string name="dialogProcessCaption">Processing...\nPlease wait.</string>
+	<string name="dialogInformationCaption">ID3Tag automatically gets the information.</string>
+	<string name="dialogInformationNoCaption">Can not find ID3Tag information.\nPlease enter the information directly.</string>
+	
+	<string name="exceptionTitleCaption">Error</string>
+	<string name="exceptionCaption">An error occurred during processing. Error information is sent to the server.\nPlease wait.\n\nIf you do not automatically transfer to [Settings> error automatically collect consent] Please turn off.</string>
+	
+	<string name="reportHintCaption">Send Program improvements</string>
+	<string name="reportSendCaption">Send</string>
+	<string name="reportCancelCaption">Cancel</string>
+	<string name="reportResultCaption">Requested information has been received successfully.</string>
+	<string name="reportResultFailCaption">Has received the request fails.\nPlease try again.</string>
+	<string name="reportNoMessageCaption">Please enter your message.</string>
+	
+</resources>

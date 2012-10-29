@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#4D4D4D">
+
+	<LinearLayout
+		android:layout_gravity="top"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<include
+			android:id="@+id/header"
+			layout="@layout/header" />
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:background="#2A2A2A"
+			android:layout_height="50dip">
+			<EditText
+				android:id="@+id/keyword"
+				android:layout_width="250dip"
+				android:layout_height="fill_parent"
+				android:hint="@string/keywordHint"
+				android:layout_margin="5dp"
+				android:layout_marginRight="0dip"
+				android:background="@drawable/bg_round_box1" />
+			<ImageButton
+				android:id="@+id/search"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|left"
+				android:background="#00000000"
+				android:src="@drawable/search"
+				android:padding="5dip"
+				android:layout_marginRight="5dip">
+				<requestFocus/>
+			</ImageButton>
+		</LinearLayout>
+
+		<ListView
+			android:id="@+id/listView"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#4D4D4D"
+			android:cacheColorHint="#00000000"
+			/>
+
+	</LinearLayout>
+
+</FrameLayout>

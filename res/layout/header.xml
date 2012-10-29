@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="98px"
+	android:background="@drawable/bg_header"
+	android:orientation="horizontal"
+	android:weightSum="10">
+	
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="98px"
+		android:orientation="horizontal"
+		android:gravity="left"
+		android:weightSum="6">
+	<ImageView
+		android:id="@+id/logo"
+		android:src="@drawable/img_logo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center|center_vertical"
+		android:gravity="center"
+		android:padding="3dp" />
+	</LinearLayout>
+	
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="98px"
+		android:orientation="horizontal"
+		android:gravity="right"
+		android:weightSum="4">
+		<ProgressBar
+			android:id="@+id/progress"
+			style="?android:attr/progressBarStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right|center_vertical"
+			android:padding="10dp" />
+		<ImageButton
+			android:id="@+id/configuration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:background="#00000000"
+			android:src="@drawable/configuration"
+			android:padding="3dp"
+			>
+			</ImageButton>
+		<ImageButton
+			android:id="@+id/infomation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:background="#00000000"
+			android:src="@drawable/infomation"
+			android:padding="3dp"
+			/>
+	</LinearLayout>
+</LinearLayout>

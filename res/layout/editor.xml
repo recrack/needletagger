@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#4D4D4D">
+
+	<include
+		android:id="@+id/header"
+		layout="@layout/header" />
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:fillViewport="true">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:padding="5dip"
+				android:id="@+id/path" />
+
+			<RelativeLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/path"
+				android:layout_marginBottom="5dip">
+				<TextView
+					android:id="@+id/titleCaption"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="0dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:text="@string/titleCaption" />
+				<EditText
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/titleCaption"
+					android:background="@drawable/bg_round_box1"
+					android:padding="5dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginBottom="5dip"
+					android:lines="1"
+					android:id="@+id/title" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dip">
+				<TextView
+					android:id="@+id/artistCaption"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="0dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:text="@string/artistCaption" />
+				<EditText
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/artistCaption"
+					android:background="@drawable/bg_round_box1"
+					android:padding="5dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginBottom="5dip"
+					android:lines="1"
+					android:id="@+id/artist" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="5dip">
+				<TextView
+					android:id="@+id/albumCaption"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:padding="0dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:text="@string/albumCaption" />
+				<EditText
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/albumCaption"
+					android:background="@drawable/bg_round_box1"
+					android:padding="5dip"
+					android:layout_marginLeft="5dip"
+					android:layout_marginRight="5dip"
+					android:layout_marginBottom="5dip"
+					android:lines="1"
+					android:id="@+id/album" />
+			</RelativeLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right">
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginRight="5dip"
+					android:id="@+id/alsong"
+					android:text="@string/alsong" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dip"
+				android:gravity="center">
+				<org.softwaregeeks.needletagger.MusicArtworkView
+					android:id="@+id/artwork"
+					android:layout_width="345px"
+					android:layout_height="345px">
+				</org.softwaregeeks.needletagger.MusicArtworkView>
+			</LinearLayout>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dip"
+				android:layout_marginRight="10dip"
+				android:layout_marginBottom="20dip"
+				android:id="@+id/ok"
+				android:text="@string/save">
+				</Button>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NeedleTagger</string>
+	
+	<string name="configurationCategory1">오류</string>
+	<string name="configurationCategory2">설정</string>
+	<string name="configurationReportTitle">오류 자동 수집하기 동의</string>
+	<string name="configurationReportSummary">더 나은 프로그램을 만들기위해서 오류를 자동으로 수집합니다.</string>
+	<string name="configurationPlayerLinkTitle">플레이어 재생시 자동실행</string>
+	<string name="configurationPlayerLinkSummary">음악을 선택할 필요없이 플레이어에서 재생시 자동으로 실행합니다.</string>
+	<string name="configurationFontTitle">시스템기본폰트사용</string>
+	<string name="configurationFontSummary">시스템기본폰트를 사용합니다.</string>
+	<string name="configurationReportDialogTitle">개선요청하기</string>
+	<string name="configurationReportDialogSummary">프로그램의 개선점을 알려주세요.</string>
+	
+	<string name="keywordHint">가수명 또는 노래제목</string>
+	<string name="save">저장</string>
+	<string name="titleCaption">제목</string>
+	<string name="artistCaption">가수</string>
+	<string name="albumCaption">앨범</string>
+	<string name="alsong">Tag정보 자동찾기</string>
+	<string name="saveMessage">변경이 완료되었습니다.</string>
+	<string name="saveMessage1">죄송합니다. 파일을 쓸 수가 없습니다.</string>
+	<string name="saveMessage2">죄송합니다. 파일을 읽을 수가 없습니다.</string>
+	<string name="saveMessage3">죄송합니다. Tag가 오류가 나서 처리할 수 없습니다.</string>
+	<string name="saveMessage4">죄송합니다. 파일이 읽기전용 입니다.</string>
+	<string name="saveMessage5">죄송합니다. 지원되지 않는 포멧입니다.</string>
+	<string name="saveMessage6">죄송합니다. 쓰기오류로 저장이 실패되었습니다.</string>
+	
+	<string name="dialogProcessTitleCaption">처리중...</string>
+	<string name="dialogArtworkCaption">노래제목과 가수명을 바탕으로 인터넷에서 이미지를 자동으로 가져옵니다.</string>
+	<string name="dialogArtworkNoCaption">이미지를 찾지 못하였습니다.\n노래제목과 가수명으로 이미지를 검색합니다.\n다시 시도해주세요.</string>
+	<string name="dialogOkCaption">확인</string>
+	<string name="dialogCancelCaption">취소</string>
+	<string name="dialogProcessCaption">처리중입니다.\n잠시 기다려주세요.</string>
+	<string name="dialogInformationCaption">ID3Tag 정보를 자동으로 가져옵니다.</string>
+	<string name="dialogInformationNoCaption">ID3Tag 정보를 찾지 못하였습니다.\n직접 정보를 입력해주세요.</string>
+	
+	<string name="exceptionTitleCaption">오류발생</string>
+	<string name="exceptionCaption">처리중 오류가 발생하였습니다. 서버로 오류정보를 전송중입니다.\n잠시 기다려주세요.\n\n자동으로 전송을 원치않으시면 [설정>오류 자동 수집하기 동의]을 해제해주세요.</string>
+	
+	<string name="reportHintCaption">요청하기 내용</string>
+	<string name="reportSendCaption">전송</string>
+	<string name="reportCancelCaption">취소</string>
+	<string name="reportResultCaption">요청내용이 정상적으로 접수되었습니다.</string>
+	<string name="reportResultFailCaption">요청내용 접수가 실패되었습니다.\n다시 시도해주세요.</string>
+	<string name="reportNoMessageCaption">요청내용을 입력해주세요.</string>
+	
+</resources>

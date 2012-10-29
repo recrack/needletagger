@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NeedleTagger</string>
+	<string name="configurationCategory1">エラー</string>
+	<string name="configurationCategory2">設定</string>
+	<string name="configurationReportTitle">エラーの自動収集に同義。</string>
+	<string name="configurationReportSummary">もっと良いプログラムを作るためにエラーを自動で収集します。</string>
+	<string name="configurationPlayerLinkTitle">プレーヤー再生時、自動実行。</string>
+	<string name="configurationPlayerLinkSummary">音楽を選ぶ必要なくプレーヤーで再生時、自動で実行します。</string>
+	<string name="configurationFontTitle">システムの基本フォント使用。</string>
+	<string name="configurationFontSummary">システムの基本フォントを使用します。</string>
+	<string name="configurationReportDialogTitle">改善の要請する。</string>
+	<string name="configurationReportDialogSummary">プログラムの改善点を知らせてください。</string>
+	<string name="keywordHint">歌手名または歌のタイトル</string>
+	<string name="save">保存</string>
+	<string name="titleCaption">タイトル</string>
+	<string name="artistCaption">歌手</string>
+	<string name="albumCaption">アルバム</string>
+	<string name="alsong">タッグの情報を自動で探す。</string>
+	<string name="saveMessage">変更が完了できました。</string>
+	<string name="saveMessage1">申し訳ありません。ファイルを書き込むことができません。</string>
+	<string name="saveMessage2">申し訳ありません。ファイルを読み取ることができません。</string>
+	<string name="saveMessage3">申し訳ありません。Tagが、エラーが出て処理できません。</string>
+	<string name="saveMessage4">申し訳ありません。ファイルが読み取り専用です。</string>
+	<string name="saveMessage5">申し訳ありません。サポートされていないフォーマットです。</string>
+	<string name="saveMessage6">申し訳ありません。書き込みエラーで保存に失敗しました。</string>
+	
+	<string name="dialogProcessTitleCaption">処理中。。。</string>
+	<string name="dialogArtworkCaption">歌のタイトルと歌手名をもとにして、インターネットからイメージを自動で持って来ます。</string>
+	<string name="dialogArtworkNoCaption">イメージが見つけませんでした。\n歌のタイトルと歌手名でイメージを検索します。\nもう一回繰り返してください。</string>
+	<string name="dialogOkCaption">確認</string>
+	<string name="dialogCancelCaption">取り消し</string>
+
+	<string name="dialogProcessCaption">処理中です。\n少々お待ちください。</string>
+	<string name="dialogInformationCaption">ID3Tag情報を自動で持ってきます。</string>
+	<string name="dialogInformationNoCaption">ID3Tag情報が見つけませんでした。直接情報を入力してください。</string>
+	<string name="exceptionTitleCaption">エラー発生</string>
+	<string name="exceptionCaption">処理中エラーが発生しました。サーバでエラーの情報を伝送中です。\n少々お待ちください。\n\n自動の伝送をしたくなければ、「設定＞エラーの自動収集に同義」を解除してください。</string>
+	
+	<string name="reportHintCaption">要請の内容</string>
+	<string name="reportSendCaption">伝送</string>
+	<string name="reportCancelCaption">取り消し</string>
+	<string name="reportResultCaption">要請の内容が正常的に受付できました。</string>
+
+	<string name="reportResultFailCaption">要請の内容の受付が失敗しまして。\nもう一回繰り返してください。</string>
+	<string name="reportNoMessageCaption">要請の内容を入力してください。</string>
+</resources>

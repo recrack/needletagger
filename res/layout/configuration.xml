@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="preference">
+	
+	<PreferenceCategory
+		android:title="@string/configurationCategory2">
+		<CheckBoxPreference
+			android:key="playerLink"
+			android:title="@string/configurationPlayerLinkTitle"
+			android:summary="@string/configurationPlayerLinkSummary"
+			android:defaultValue="true" />
+		
+		<!--
+		<CheckBoxPreference
+			android:key="font"
+			android:title="@string/configurationFontTitle"
+			android:summary="@string/configurationFontSummary"
+			android:defaultValue="false" />
+		 -->
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory
+		android:title="@string/configurationCategory1">
+		
+		<Preference
+			android:key="reportingDialog"
+			android:title="@string/configurationReportDialogTitle"
+			android:summary="@string/configurationReportDialogSummary"
+			/>
+			
+		<CheckBoxPreference
+			android:key="reporting"
+			android:title="@string/configurationReportTitle"
+			android:summary="@string/configurationReportSummary"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	
+</PreferenceScreen>
